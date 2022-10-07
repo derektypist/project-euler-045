@@ -34,3 +34,7 @@ User Stories on function `triPentaHexa(n)` taken from [FreeCodeCamp - Coding Int
 
 The function `triPentaHexa(n)` returns a number, where n is a number.
 
+## Features
+
+Allows the user to show or hide the solution to the problem as described in [Project Euler 045](https://projecteuler.net/problem=45).
+
