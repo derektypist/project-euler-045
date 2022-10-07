@@ -15,3 +15,9 @@ function hexagonal(n) {
 function nearestHexagonal(n) {
     return parseInt((Math.sqrt(8*n+1)+1)/4);
 }
+
+// Function to check if number n is pentagonal
+function isPentagonal(n) {
+    let root = (1+24*n) ** 0.5;
+    return ((1+root)/6) % 1 == 0;
+}
