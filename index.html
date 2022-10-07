@@ -24,7 +24,21 @@
         <p>Hexagonal <span class="formula">H<sub>n</sub> = n(2n-1) 1, 6, 15, 28, 45,...</span></p>
         <p>It can be verified that T<sub>285</sub> = P<sub>165</sub> = H<sub>143</sub> = 40756</p>
         <p>Find the next triangle number that is also pentagonal and hexagonal.</p>
-        <p>Click on Show Solution to show the solution.  Or Hide Solution to hide the solution.</p>
+        <p>Select Show Solution to show the solution.  Or Hide Solution to hide the solution.</p>
+    </section>
+
+    <!-- Set Up and Center Buttons -->
+    <section class="container-fluid">
+        <article class="d-grid gap-2 d-flex justify-content-center">
+            <button type="button" class="btn btn-info" onclick="showSolution()">Show Solution</button>
+            <button type="reset" class="btn btn-warning" onclick="hideSolution()">Hide Solution</button>
+        </article>
+
+        <!-- Solution Information -->
+        <p id="solution"></p>
+
+        <!-- Load Script -->
+        <script src="js/script.js"></script>
     </section>
 </body>
 </html>
