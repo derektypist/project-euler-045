@@ -10,3 +10,8 @@ function showSolution() {
 function hexagonal(n) {
     return n * ((2*n) - 1);
 }
+
+// Function to get the nearest hexagonal (returns a number)
+function nearestHexagonal(n) {
+    return parseInt((Math.sqrt(8*n+1)+1)/4);
+}
