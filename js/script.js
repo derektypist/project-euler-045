@@ -21,3 +21,19 @@ function isPentagonal(n) {
     let root = (1+24*n) ** 0.5;
     return ((1+root)/6) % 1 == 0;
 }
+
+/*
+    Function to return the next number which is triangular, pentagonal
+    and hexagonal.
+    triPentaHexa(40756) returns 1533776805
+
+*/
+function triPentaHexa(n) {
+    let num = nearestHexagonal(n) + 1;
+    let hexNum = hexagonal(num);
+    while (!isPentagonal(hexNum)) {
+        num += 1;
+        hexNum = hexagonal(num);
+    }
+    return hexNum;
+}
