@@ -37,3 +37,9 @@ function triPentaHexa(n) {
     }
     return hexNum;
 }
+
+// Function to Hide Solution
+function hideSolution() {
+    let txt = "";
+    document.getElementById("solution").innerHTML = txt;
+}
